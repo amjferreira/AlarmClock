@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:text="@string/defaultTime"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeDefined"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:textStyle="normal|bold"
+            android:layout_width="match_parent" />
+
+        <TextView
+            android:text="@string/defaultTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleDefined"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:showText="false"
+        android:id="@+id/switchDefined"
+        android:layout_weight="0.15"
+        android:splitTrack="false"
+        android:checked="false"
+        android:focusable="false"/>
+
+    <!-- weight property defines how much it will occupy, in percentage in the given layout orientation  -->
+</LinearLayout>

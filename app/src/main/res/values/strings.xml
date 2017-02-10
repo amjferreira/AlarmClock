@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AlarmV2</string>
+    <string name="addAlarm">Add Alarm</string>
+    <string name="setAlarm">Set Alarm</string>
+    <string name="newAlarm">New Alarm</string>
+    <string name="bt1">Gravar Texto</string>
+    <string name="bt2">Mostrar Texto</string>
+    <string name="editorExample">Example Editor</string>
+    <string name="defaultTime">00:00</string>
+    <string name="defaultTitle">Alarm Name</string>
+    <string name="removeBtn">Remove All</string>
+</resources>
